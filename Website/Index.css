@@ -1,0 +1,24 @@
+*{ margin: 0; padding: 0;box-sizing: border-box;}
+.Wrapper{ border: solid; height: 500px; width: 100%; 
+    background-color: blueviolet;}
+.header{ border: 1px solid; display: block;}
+.header .logo,.nav{ display: inline-block;}
+.logo{ margin: 30px;
+    float: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+}
+.nav{ margin: 30px; margin-right: 150px;
+    float: right;
+}
+.nav a{
+    padding: 20px; text-decoration: none; color: white;
+}
+.body{ text-align: center; padding-top: 200px; color: white;
+}
+.Footer{
+    text-align: center; margin: 40px;
+}
+.Footer a{ padding: 10px 40px;
+    text-decoration: none; color: black;
+    background-color: white;  border-radius: 50px;
+}
