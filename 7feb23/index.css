@@ -63,7 +63,7 @@ h1 {
   color: white;
   margin: 20px 0px 20px;
   font-size: 75px;
-  animation-name: moveinleft;
+  animation-name: moveright;
   animation-duration: 1s;
   transition: all 0.2s;
 }
@@ -71,7 +71,7 @@ h3 {
   color: white;
   font-size: 25px;
   margin-bottom: 50px;
-  animation-name: moveinright;
+  animation-name: moveleft;
   animation-duration: 1s;
   transition: all 0.4s;
 }
@@ -81,7 +81,7 @@ h4 {
   font-size: 20px;
 }
 .btn-animation {
-  animation-name: moveinbottom;
+  animation-name: moveup;
   animation-duration: 1s;
   transition: all 0.4s;
 }
@@ -322,12 +322,12 @@ footer p:nth-child(2) {
     margin: 20px 0px;
   }
 }
-@keyframes moveinleft {
+@keyframes moveright {
   0% {
     transform: translateX(-100px);
     opacity: 0;
   }
-  80% {
+  90% {
     transform: translateX(20px);
   }
   100% {
@@ -336,7 +336,7 @@ footer p:nth-child(2) {
   }
 }
 
-@keyframes moveinright {
+@keyframes moveleft {
   0% {
     transform: translateX(100px);
     opacity: 0;
@@ -350,7 +350,7 @@ footer p:nth-child(2) {
   }
 }
 
-@keyframes moveinbottom {
+@keyframes moveup {
   0% {
     transform: translateY(100px);
     opacity: 0;
